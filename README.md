@@ -15,7 +15,6 @@ The objective of this project is to conduct an end-to-end analysis of e-commerce
 - **SQL** – for data cleaning, transformation, and complex analysis  
 - **CSV File** – as the raw transactional data source  
 
-
 ---
 
 ## 📂 Dataset Description
@@ -93,6 +92,19 @@ The dataset contains historical transaction records from an online retail store,
 - Aggregate functions: `SUM()`, `COUNT(DISTINCT)`, `AVG()`, `ROUND()`
 - Conditional logic using `CASE WHEN` for time shifts
 - Full NULL validation and removal during data cleaning
+
+---
+
+### 🛠️ How to Run the SQL File (PostgreSQL)
+
+1. **Download** the `.sql` file from this repository.
+2. Open **pgAdmin** or your preferred PostgreSQL tool.
+3. **Create a new database** (right-click on Databases → New Database).
+4. Once created, **right-click on the new database**, choose **"Restore"**.
+5. In the restore dialog, select the downloaded `.sql` file.  
+   > **Just a quick reminder** — when restoring the file, please make sure to upload it in `.sql` format instead of the default `.backup` format. By default, the system tends to open files as `.backup`.
+6. Click **Restore**.
+7. The database will now be populated — you can start running queries!
 
 ---
 
