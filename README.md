@@ -14,7 +14,8 @@ The objective of this project is to conduct an end-to-end analysis of e-commerce
 - *(Optional for Visualization)* [**Power BI**](https://powerbi.microsoft.com/downloads/), [**Tableau**](https://www.tableau.com/products/desktop/download), or **Excel** – for dashboards and visual reports
 - **SQL** – for data cleaning, transformation, and complex analysis  
 - **CSV File** – as the raw transactional data source  
-
+- **Dataset Source**: [E-Commerce Data on Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data?select=data.csv)
+  
 ---
 
 ## 📂 Dataset Description
