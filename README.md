@@ -1,4 +1,5 @@
-# E-Commerce Sales Analysis using PostgreSQL
+# 🛒 E-Commerce Sales Analysis using PostgreSQL
+
 
 ## 🧾 Project Objective
 
@@ -43,7 +44,6 @@ The dataset contains historical transaction records from an online retail store,
 ### 2. Data Cleaning
 - Removed invalid entries:
   - Negative or zero quantity and price.
-  - Cancelled orders (e.g., order IDs starting with 'C').
   - Rows with NULL values in critical fields.
 
 ### 3. Exploratory Data Analysis (EDA)
@@ -96,6 +96,5 @@ The dataset contains historical transaction records from an online retail store,
 
 ---
 
-## ✅ Final Outcome
-
-This project provides a clean and scalable SQL-based data pipeline that delivers deep business insights into e-commerce performance. With robust filtering, aggregation, and transformation logic, it supports smarter decision-making in customer engagement, product strategy, and sales optimization.
+## 📌 Conclusion
+This project demonstrates how structured SQL analysis on a PostgreSQL database can turn raw e-commerce transaction data into actionable insights. It lays the foundation for data-driven decision-making in retail operations.
